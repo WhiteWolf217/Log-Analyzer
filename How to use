@@ -1,0 +1,19 @@
+🚀 Usage
+
+# Generate a test log
+python3 test.py
+
+# Run the analyzer with verbose output
+python3 loganalyze.py test_log.log --verbose --report
+Optional flags:
+
+--email you@example.com – send alerts via email
+
+--report – generate a text report
+
+--verbose – show detailed log entries in the console
+
+🧠 Requirements
+Python 3.6+
+
+No external dependencies (uses built-in libraries)
